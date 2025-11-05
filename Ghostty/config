@@ -1,0 +1,23 @@
+theme = catppuccin-mocha.conf
+font-family = "JetBrains Mono"
+font-style = "Bold"
+font-size = 18
+cursor-style = "bar"
+title = "Terminal"
+working-directory = "home"
+window-inherit-working-directory = true
+quit-after-last-window-closed = true
+shell-integration = "zsh"
+window-padding-color = "extend"
+
+macos-titlebar-proxy-icon = "hidden"
+
+keybind = alt+left=esc:b
+keybind = alt+right=esc:f
+
+keybind = cmd+left=text:\x01
+keybind = cmd+right=text:\x05
+
+keybind = cmd+backspace=text:\x15
+
+keybind = option+backspace=text:\x1b\x7f
